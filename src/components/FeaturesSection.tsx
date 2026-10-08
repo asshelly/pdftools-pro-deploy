@@ -65,9 +65,9 @@ export const FeaturesSection: React.FC = () => {
       icon: <Sparkles className="w-5 h-5 text-rose-600" />,
     },
     {
-      title: 'Instalación sencilla',
+      title: 'Descarga sencilla',
       description:
-        'Instalador directo y ligero de tan solo 28.4 MB. Sin registros previos, sin publicidad externa ni dependencias complejas.',
+        'Descarga PDFToolsPro.exe directamente desde la página, sin registros previos ni publicidad externa.',
       icon: <DownloadCloud className="w-5 h-5 text-rose-600" />,
     },
   ];

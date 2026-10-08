@@ -1,7 +1,7 @@
 import React from 'react';
 import { X, CheckCircle, Keyboard, FileType, Zap, Download } from 'lucide-react';
 import { PDFTool } from '../types';
-import { downloadDemo } from '../services/downloadService';
+import { downloadApp } from '../services/downloadService';
 
 interface ToolDetailModalProps {
   tool: PDFTool | null;
@@ -97,12 +97,12 @@ export const ToolDetailModal: React.FC<ToolDetailModalProps> = ({ tool, onClose 
             type="button"
             onClick={() => {
               onClose();
-              downloadDemo();
+              downloadApp();
             }}
             className="inline-flex items-center gap-2 px-4 py-2 bg-rose-600 hover:bg-rose-700 text-white font-semibold text-xs rounded-lg transition-colors cursor-pointer"
           >
             <Download className="w-3.5 h-3.5" />
-            <span>Descargar versión Windows 11</span>
+            <span>Descargar PDFTools Pro</span>
           </button>
         </div>
       </div>

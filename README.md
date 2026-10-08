@@ -1,6 +1,6 @@
 # PDFTools Pro
 
-Sitio web de demostración construido con React, TypeScript y Vite. El repositorio contiene el código de la página; todavía no incluye un instalador de Windows.
+Sitio web de PDFTools Pro construido con React, TypeScript y Vite. El repositorio contiene el código de la página; el ejecutable de Windows se aloja en Vercel Blob.
 
 ## Ejecutar localmente
 
@@ -33,4 +33,4 @@ Al conectar GitHub con Vercel, los siguientes cambios en la rama principal puede
 
 ## Descarga de la aplicación
 
-El botón de descarga muestra un aviso informativo. No hay ningún archivo `.exe` publicado en este repositorio. El tamaño, el SHA-256 y cualquier afirmación sobre firma o análisis de seguridad deben añadirse solo cuando exista un instalador real y se hayan verificado sus datos.
+Los botones de descarga enlazan directamente a `PDFToolsPro.exe` en Vercel Blob. El binario no se guarda en este repositorio. No se publica aquí un tamaño, SHA-256 ni estado de firma para ese archivo.

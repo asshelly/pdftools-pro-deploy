@@ -67,7 +67,7 @@ export const ProductSection: React.FC = () => {
             </div>
             <div className="mt-8 pt-4 border-t border-slate-100 text-xs text-slate-500 flex items-center gap-2">
               <HardDrive className="w-4 h-4 text-rose-500" />
-              <span>12 utilidades en una sola instalación de 28.4 MB</span>
+              <span>12 utilidades en una sola aplicación de escritorio</span>
             </div>
           </div>
         </div>

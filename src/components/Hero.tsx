@@ -1,6 +1,6 @@
 import React from 'react';
 import { Download, ArrowDown, Monitor, CheckCircle, Sparkles } from 'lucide-react';
-import { downloadDemo } from '../services/downloadService';
+import { downloadApp } from '../services/downloadService';
 import { DesktopMockup } from './DesktopMockup';
 
 export const Hero: React.FC = () => {
@@ -21,9 +21,7 @@ export const Hero: React.FC = () => {
         {/* System & Version Metadata - strictly following zero-pill discipline */}
         <div className="inline-flex items-center gap-2.5 text-xs sm:text-sm font-semibold text-slate-700 bg-rose-50/80 border border-rose-100/90 px-3.5 py-1.5 rounded-full mb-6 shadow-xs">
           <Monitor className="w-3.5 h-3.5 text-rose-600" />
-          <span>Disponible para Windows 11</span>
-          <span className="text-slate-300">|</span>
-          <span className="text-rose-700">Versión 1.0.0</span>
+          <span>Ejecutable para Windows</span>
         </div>
 
         {/* Hero Title */}
@@ -43,7 +41,7 @@ export const Hero: React.FC = () => {
         <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-3.5 sm:gap-4">
           <button
             type="button"
-            onClick={() => downloadDemo()}
+            onClick={downloadApp}
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 text-base font-semibold text-white bg-rose-600 hover:bg-rose-700 active:bg-rose-800 rounded-xl shadow-md hover:shadow-lg hover:shadow-rose-600/25 transition-all duration-150 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-600"
           >
             <Download className="w-5 h-5" />
@@ -74,7 +72,7 @@ export const Hero: React.FC = () => {
           <span className="hidden sm:inline text-slate-300">·</span>
           <span className="flex items-center gap-1.5">
             <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
-            Instalador compacto (28.4 MB)
+            Descarga directa del archivo .exe
           </span>
         </div>
 

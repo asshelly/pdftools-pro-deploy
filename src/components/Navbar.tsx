@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Download, Menu, X, Layers } from 'lucide-react';
-import { downloadDemo } from '../services/downloadService';
+import { downloadApp } from '../services/downloadService';
 
 export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -78,7 +78,7 @@ export const Navbar: React.FC = () => {
           <div className="flex items-center gap-3">
             <button
               type="button"
-              onClick={() => downloadDemo()}
+              onClick={downloadApp}
               className="hidden sm:inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold text-white bg-rose-600 hover:bg-rose-700 active:bg-rose-800 rounded-lg shadow-sm hover:shadow-md hover:shadow-rose-600/20 transition-all duration-150 cursor-pointer whitespace-nowrap focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rose-600"
             >
               <Download className="w-4 h-4" />
@@ -122,7 +122,7 @@ export const Navbar: React.FC = () => {
               type="button"
               onClick={() => {
                 setMobileMenuOpen(false);
-                downloadDemo();
+                downloadApp();
               }}
               className="w-full flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-white bg-rose-600 hover:bg-rose-700 rounded-lg shadow-sm transition-colors cursor-pointer"
             >

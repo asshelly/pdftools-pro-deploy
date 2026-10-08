@@ -15,7 +15,7 @@ import {
   Sliders,
   Settings,
 } from 'lucide-react';
-import { downloadDemo } from '../services/downloadService';
+import { downloadApp } from '../services/downloadService';
 
 export const DesktopMockup: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'merge' | 'compress' | 'convert' | 'protect'>('merge');
@@ -413,10 +413,10 @@ export const DesktopMockup: React.FC = () => {
           <span className="hidden md:inline">Windows 11 (x64)</span>
           <button
             type="button"
-            onClick={() => downloadDemo()}
+            onClick={downloadApp}
             className="text-rose-600 font-semibold hover:underline cursor-pointer"
           >
-            Obtener versión completa →
+            Descargar PDFTools Pro →
           </button>
         </div>
       </div>

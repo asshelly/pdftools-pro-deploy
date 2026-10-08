@@ -29,12 +29,12 @@ export const FAQ_DATA: FaqItem[] = [
     id: 'faq-5',
     question: '¿Cómo puedo descargarlo?',
     answer:
-      'Haz clic en el botón "Descargar para Windows" o "Descargar PDFTools Pro" en la sección de descargas. En esta etapa del proyecto académico, el botón activa la notificación de descarga preparada; posteriormente se enlazará de manera directa al instalador oficial (.exe).',
+      'Haz clic en cualquier botón de descarga para bajar PDFToolsPro.exe desde el almacenamiento público de Vercel.',
   },
   {
     id: 'faq-6',
-    question: '¿Cuál es la versión actual?',
+    question: '¿Qué archivo se descarga?',
     answer:
-      'La versión actual es la 1.0.0 (compilación 64 bits para Windows 11). Tiene un tamaño de instalador compacto de 28.4 MB y requiere un mínimo de 4 GB de memoria RAM y 100 MB de espacio libre en disco.',
+      'Se descarga el ejecutable PDFToolsPro.exe. La versión, el tamaño y los requisitos dependen del archivo publicado.',
   },
 ];
